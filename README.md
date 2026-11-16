@@ -2,7 +2,7 @@
 
 Windows için Jira test inceleme panosu. Atanan test görevinden story'ye, test mühendisinin senaryolarına ve bağlı Confluence analizine gider. Analiz maddeleri ile test adımlarını yan yana inceleyebilir, kapsam yüzdesini görebilir ve seçtiğiniz yorumları düzenleyerek Jira'ya gönderebilirsiniz.
 
-**[Windows x64 için İzlek 0.1d sürümünü indir](https://github.com/Birkankader/izlek-releases/releases/download/v0.1d/Izlek-0.1d-windows-x64.exe)** · [Tüm sürümler](https://github.com/Birkankader/izlek-releases/releases)
+**[Windows x64 için İzlek 0.1e sürümünü indir](https://github.com/Birkankader/izlek-releases/releases/download/v0.1e/Izlek-0.1e-windows-x64.exe)** · [Tüm sürümler](https://github.com/Birkankader/izlek-releases/releases)
 
 ## Başlangıç
 
@@ -12,6 +12,8 @@ Windows için Jira test inceleme panosu. Atanan test görevinden story'ye, test 
 4. **Görev sorgusu ve kurum alanları** altında atanan testlerin JQL sorgusunu, story türünü, ilişki adlarını ve varsa test adımı özel alanlarını ayarlayın. İzlek bilinen Jira test adımı alanlarını otomatik arar. Data Center'da özel alanlar adım döndürmezse Xray ve Zephyr Squad kaynaklarını kontrol eder. Test metni boş kalırsa **Kaynak metinler → Jira okuma ayrıntıları** altında alanları ve servis yanıtlarını görebilir, başka bir bağlı test seçebilir veya adımları yapıştırabilirsiniz.
 5. Bir görev açın. Birden fazla test varsa **Bağlı testler** üzerinden inceleyeceğiniz testi seçin. Uyum yüzdesi, karşılanan analiz maddelerinin toplam madde sayısına oranıdır. İnceleme önerilerini ve yüzdeye esas sınıflandırmayı düzenleyebilirsiniz.
 6. **Yorum sepeti** içinde yalnızca seçtiğiniz taslakları önizleyin. Hedef Jira kaydına onayınızla tek bir yorum gönderilir.
+
+**Kaynak metinler** ekranında başlık biçimindeki gereksinimler ve tablo veri satırları karşılaştırılabilir. Gerektiğinde **Başlık ve etiketleri de karşılaştır** seçeneğini kullanın. **Yeniden dene** kutulardaki güncel metni okur.
 
 Varsayılan metin eşleştirme ek model gerektirmez. İsteğe bağlı anlamsal inceleme için bilgisayarınızda kurulu bir Ollama modeli gerekir. Ayarlar ve taslaklar Windows kullanıcı profilinde saklanır.
 
