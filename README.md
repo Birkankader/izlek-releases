@@ -2,7 +2,7 @@
 
 Windows için Jira test inceleme panosu. Atanan test görevinden story'ye, test mühendisinin senaryolarına ve bağlı Confluence analizine gider. Analiz maddeleri ile test adımlarını yan yana inceleyebilir, kapsam yüzdesini görebilir ve seçtiğiniz yorumları düzenleyerek Jira'ya gönderebilirsiniz.
 
-**[Windows x64 için İzlek 0.1e sürümünü indir](https://github.com/Birkankader/izlek-releases/releases/download/v0.1e/Izlek-0.1e-windows-x64.exe)** · [Tüm sürümler](https://github.com/Birkankader/izlek-releases/releases)
+**[Windows x64 için İzlek 0.1f sürümünü indir](https://github.com/Birkankader/izlek-releases/releases/download/v0.1f/Izlek-0.1f-windows-x64.exe)** · [Tüm sürümler](https://github.com/Birkankader/izlek-releases/releases)
 
 ## Başlangıç
 
@@ -22,5 +22,7 @@ Bu depo dağıtım dosyalarına ayrılmıştır. Her sürümde çalıştırılab
 ## ChatGPT üyeliğiyle inceleme
 
 **Bağlantı ayarları → Karşılaştırma yöntemi → ChatGPT üyeliğim** seçeneğini açın. İzlek kurulu Codex bileşenini bulur. ChatGPT oturumunuz açıksa doğrudan kullanır. Oturumunuz yoksa uygulamadan **ChatGPT ile giriş yap** düğmesine basarak tarayıcıda giriş yapın. Pencere görünmezse aynı giriş sayfasını ayarlardan tekrar açabilir veya bağlantıyı kopyalayabilirsiniz. Codex kurulu değilse uygulama resmi Windows bileşenini indirip doğrulayabilir. Seçilen analiz ve test içeriği OpenAI'ye gönderilir ve hesabınızın Codex kullanım hakkı kullanılır. API anahtarı gerekmez.
+
+ChatGPT ve Ollama incelemelerinde kanıt metni ilgili test adımının kaynak alanından alınır. Geçersiz veya eksik maddeler bir kez daha değerlendirilir. Doğrulanan bulgular panoda kalır. Açık maddeleri ve nedenlerini **Doğrulama bekleyen maddeler** altında görebilirsiniz.
 
 **Eksik kapsam** kartında ilgili adım numarasını, sorunun eylemde mi beklenen sonuçta mı olduğunu, analizle çelişen ifadeyi ve önerilen düzeltmeyi görebilirsiniz. Kaynakta eşleşen adım yoksa kart yeni bir adım önerir. Jira'ya göndermeden önce yorumu düzenleyebilir ve hedef kaydı önizleyebilirsiniz.
