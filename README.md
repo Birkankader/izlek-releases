@@ -2,11 +2,13 @@
 
 Windows için Jira test inceleme panosu. Atanan test görevinden story'ye, test mühendisinin senaryolarına ve bağlı Confluence analizine gider. Analiz maddeleri ile test adımlarını yan yana inceleyebilir, kapsam yüzdesini görebilir ve seçtiğiniz yorumları düzenleyerek Jira'ya gönderebilirsiniz.
 
-**[Windows x64 için İzlek 0.1i sürümünü indir](https://github.com/Birkankader/izlek-releases/releases/download/v0.1i/Izlek-0.1i-windows-x64.exe)** · [Tüm sürümler](https://github.com/Birkankader/izlek-releases/releases)
+**[Windows x64 için İzlek 0.1j sürümünü indir](https://github.com/Birkankader/izlek-releases/releases/download/v0.1j/Izlek-0.1j-windows-x64.exe)** · [Tüm sürümler](https://github.com/Birkankader/izlek-releases/releases)
 
 0.1f ve önceki sürümleri kullanıyorsanız güncel EXE dosyasını bir kez elle indirin. İzlek’i yazabildiğiniz bir klasörden çalıştırın. Sonraki sürümler açılışta ve uygulama açıkken altı saatte bir GitHub üzerinden kontrol edilir. İzlek yayıncı imzasını ve dosyanın SHA-256 özetini doğruladıktan sonra güncellemeyi hazırlar. Açık incelemenize devam edebilir, **Şimdi yeniden başlat** düğmesini kullanabilir veya yeni sürüme bir sonraki açılışta geçebilirsiniz.
 
 Mor temalı inceleme panosu uyum yüzdesini, eksik kapsamı, uç durumları ve karşılanan maddeleri bir arada gösterir. Karttaki **Sorun ve çözüm** bölümünden düzeltmeyi okuyabilir, **Yorumu incele** yan panelinde sorunlu test alanını görüp taslağı düzenleyebilirsiniz.
+
+**Bağlantı ayarları → Tema** bölümünden **Açık** veya **Koyu** seçebilirsiniz. Her iki temada da ana renk mordur. İlk açılışta açık tema kullanılır. Seçiminiz anında uygulanır ve sonraki açılışlarda hatırlanır.
 
 ## Başlangıç
 
