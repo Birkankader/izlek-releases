@@ -1,8 +1,8 @@
 # İzlek
 
-Windows için Jira test inceleme panosu. Atanan test görevinden story'ye, test mühendisinin senaryolarına ve bağlı Confluence analizine gider. Analiz maddeleri ile test adımlarını yan yana inceleyebilir, kapsam yüzdesini görebilir ve seçtiğiniz yorumları düzenleyerek Jira'ya gönderebilirsiniz.
+Windows için Jira test inceleme panosu. Atanan Task veya Görev kaydından story'ye, test mühendisinin senaryolarına ve bağlı Confluence analizine gider. Analiz maddeleri ile test adımlarını yan yana inceleyebilir, kapsam yüzdesini görebilir ve seçtiğiniz yorumları düzenleyerek Jira'ya gönderebilirsiniz.
 
-**[Windows x64 için İzlek 0.1j sürümünü indir](https://github.com/Birkankader/izlek-releases/releases/download/v0.1j/Izlek-0.1j-windows-x64.exe)** · [Tüm sürümler](https://github.com/Birkankader/izlek-releases/releases)
+**[Windows x64 için İzlek 0.1k sürümünü indir](https://github.com/Birkankader/izlek-releases/releases/download/v0.1k/Izlek-0.1k-windows-x64.exe)** · [Tüm sürümler](https://github.com/Birkankader/izlek-releases/releases)
 
 0.1f ve önceki sürümleri kullanıyorsanız güncel EXE dosyasını bir kez elle indirin. İzlek’i yazabildiğiniz bir klasörden çalıştırın. Sonraki sürümler açılışta ve uygulama açıkken altı saatte bir GitHub üzerinden kontrol edilir. İzlek yayıncı imzasını ve dosyanın SHA-256 özetini doğruladıktan sonra güncellemeyi hazırlar. Açık incelemenize devam edebilir, **Şimdi yeniden başlat** düğmesini kullanabilir veya yeni sürüme bir sonraki açılışta geçebilirsiniz.
 
@@ -15,13 +15,13 @@ Mor temalı inceleme panosu uyum yüzdesini, eksik kapsamı, uç durumları ve k
 1. Windows 10/11 x64 üzerinde EXE dosyasını açın. Uygulama Microsoft Edge WebView2 Runtime kullanır. EXE dijital imzasızdır.
 2. İlk ekranda Jira ve Confluence sunucularınızı girin. Kurum bağlantısı olmadan denemek için **Örnek panoyu aç** seçeneğini kullanabilirsiniz.
 3. Data Center'da kişisel erişim tokenı, Cloud'da e-posta ve site adresiyle çalışan API tokenı girin. Cloud Confluence adresine `/wiki` yolunu ekleyin. Sunucular farklıysa iki token alanını da doldurun. Başarılı bağlantıdan sonra tokenlar Windows Kimlik Bilgisi Yöneticisi'nde saklanır. 0.1b veya önceki bir sürümden yükseltirken tokenları bir kez girin. Sonraki bağlantılarda kayıtlı alanları boş bırakın.
-4. **Görev sorgusu ve kurum alanları** altında atanan testlerin JQL sorgusunu, story türünü, ilişki adlarını ve varsa test adımı özel alanlarını ayarlayın. İzlek bilinen Jira test adımı alanlarını otomatik arar. Data Center'da özel alanlar adım döndürmezse Xray ve Zephyr Squad kaynaklarını kontrol eder. Test metni boş kalırsa **Kaynak metinler → Jira okuma ayrıntıları** altında alanları ve servis yanıtlarını görebilir, başka bir bağlı test seçebilir veya adımları yapıştırabilirsiniz.
-5. Bir görev açın. Birden fazla test varsa **Bağlı testler** üzerinden inceleyeceğiniz testi seçin. Uyum yüzdesi, karşılanan analiz maddelerinin toplam madde sayısına oranıdır. İnceleme önerilerini ve yüzdeye esas sınıflandırmayı düzenleyebilirsiniz.
+4. **Görev sorgusu ve kurum alanları** altında atanan görevlerin JQL sorgusunu, başlangıç görevi ve story türlerini, ilişki adlarını ve varsa test adımı özel alanlarını ayarlayın. İzlek bilinen Jira test adımı alanlarını otomatik arar. Data Center'da özel alanlar adım döndürmezse Xray ve Zephyr Squad kaynaklarını kontrol eder. Test metni boş kalırsa **Kaynak metinler → Jira okuma ayrıntıları** altında alanları ve servis yanıtlarını görebilir, başka bir bağlı test seçebilir veya adımları yapıştırabilirsiniz.
+5. Görev aramasından size atanan bir Task veya Görev kaydını açın. Birden fazla test varsa **Bağlı testler** üzerinden inceleyeceğiniz testi seçin. Uyum yüzdesi, karşılanan analiz maddelerinin toplam madde sayısına oranıdır. İnceleme önerilerini ve yüzdeye esas sınıflandırmayı düzenleyebilirsiniz.
 6. **Yorum sepeti** içinde yalnızca seçtiğiniz taslakları önizleyin. Hedef Jira kaydına onayınızla tek bir yorum gönderilir.
 
-**Kaynak metinler** ekranında başlık biçimindeki gereksinimler ve tablo veri satırları karşılaştırılabilir. Gerektiğinde **Başlık ve etiketleri de karşılaştır** seçeneğini kullanın. **Yeniden dene** kutulardaki güncel metni okur.
+**Kaynak metinler** ekranında başlık biçimindeki gereksinimler ve tablo veri satırları karşılaştırılabilir. Gerektiğinde **Gereksinim bölümlerindeki başlık ve etiketleri de karşılaştır** seçeneğini kullanın. Giriş, kısaltmalar, tanımlar, sürüm geçmişi ve iş akışı inceleme kapsamı dışında tutulur. Durum alanı okunan kaynakları, modelin değerlendirdiği madde ve adım sayısını ve geçen süreyi gösterir. Aynı oturumda değişmemiş bir incelemeyi açınca sonuç tekrar kullanılır. Elle karşılaştırma yeni bir inceleme başlatır.
 
-Varsayılan metin eşleştirme ek model gerektirmez. İsteğe bağlı anlamsal inceleme için bilgisayarınızda kurulu bir Ollama modeli gerekir. Ayarlar ve taslaklar Windows kullanıcı profilinde saklanır.
+Yeni bağlantılarda varsayılan yöntem ChatGPT üyeliğidir. Kayıtlı yöntem tercihi korunur. Yerel metin eşleştirme ek model gerektirmez. İsteğe bağlı anlamsal inceleme için bilgisayarınızda kurulu bir Ollama modeli gerekir. Ayarlar ve taslaklar Windows kullanıcı profilinde saklanır.
 
 Bu depo dağıtım dosyalarına ayrılmıştır. Her sürümde çalıştırılabilir dosya ve SHA-256 özeti bulunur.
 
