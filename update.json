@@ -1,7 +1,7 @@
 {
-  "version": "0.1.0-alpha.13",
-  "release": "0.1m",
-  "size": 15132672,
-  "sha256": "9212a8944549edcbda8fa6fcfed338cb40b676cd7b2b47413ff6e78d06998432",
-  "signature": "D90tqtWfxn6PAHZ3gsXi4QEKk8E3uq+EBEJsV76ldRG84S79Kc8Om6T2T6IW9gigfQNVfcxRgrjIvpXKycKg4A=="
+  "version": "0.2.0",
+  "release": "0.2",
+  "size": 15128064,
+  "sha256": "a0fc3873251682523a2af0834aa0c73df517a258584b6e8d9257eb4ae0f77da8",
+  "signature": "SVgtsacKJ7IIg1swIA7M5049Ky/MTZd9jCQm7iIWsEGMWt29kQungBVB9F9tsQanx8Iv4EoKnCHnW0ATkenqYw=="
 }
